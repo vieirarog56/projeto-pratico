@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "projeto-pratico"
+version = "0.1.0"
+description = ""
+package-mode = false
+authors = [
+    {name = "Rogerio Vieira",email = "vieirarog56@hotmail.com"}
+]
+
+requires-python = ">=3.13"
+dependencies = [
+    "streamlit (>=1.57.0,<2.0.0)",
+    "pandas (>=3.0.2,<4.0.0)"
+]
+
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
